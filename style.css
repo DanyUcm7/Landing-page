@@ -1,0 +1,54 @@
+header{
+    display: grid;
+    background-color: rgb(180, 190, 39);
+    font-size: 8ex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 4ex;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto;
+}
+.equipacion{
+    background-color: rgb(230, 245, 245);
+    font-size: 4ex;
+    color: rgb(172, 159, 45);
+    justify-content: center;
+}
+.playeras{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.estadio{
+    background-color: rgb(255, 255, 255);
+    font-size: 4ex;
+    color: rgb(24, 134, 51);
+    align-content: center;
+}
+.playeras{
+    background-color: rgb(255, 255, 255);
+}
+.imagenes{
+    display: flex;
+    background-color: rgb(221, 250, 166);
+    justify-content: center;
+}
+.plantilla{
+    background-color: aquamarine;
+    font-size: 4ex;
+}
+.temporada{
+    background-color: rgb(18, 29, 92);
+    font-size: 4ex;
+    color: antiquewhite;
+}
